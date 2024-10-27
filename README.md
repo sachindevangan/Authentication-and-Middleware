@@ -1,19 +1,3 @@
-Here's a structured summary for **Lab 10: Authentication and Middleware**:
-
-**Metadata**
-- **Date**: '2023-04-23'
-- **Title**: 'Authentication and Middleware'
-- **Tech**:
-  - Node.js
-  - Express.js
-  - bcrypt
-  - express-session
-- **Show in Projects**: true
-
-**Project Description**
-This lab involves creating a secure authentication system with Express.js, implementing user sign-up and login features. It includes password hashing, role-based access control, and session management using `express-session`. A logging middleware is also incorporated to track requests and their status. The project emphasizes client-side and server-side validation, error handling, and user role restrictions across various routes.
-
-**README**
 
 ---
 

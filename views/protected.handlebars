@@ -1,0 +1,24 @@
+{{!--
+
+If the user is logged in , and 'GET /protected' endpoint is called, you will render this view based on the specs.
+
+--}}
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Protected Route</title>
+     <link rel="stylesheet" href="../public/css/lab10.css">
+</head>
+<body>
+	<h1>Welcome {{firstName}}, the time is now: {{currentTime}}. Your role in the system is: {{role}}.</h1>
+
+	{{#if isAdmin}}
+		<p><a href="/admin">Admin Dashboard</a></p>
+	{{/if}}
+
+	<p><a href="/logout">Logout</a></p>
+	<script src = "../public/js/lab10.js"></script> 
+</body>
+

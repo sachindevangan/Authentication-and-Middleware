@@ -1,0 +1,24 @@
+{{!--
+
+If the user is logged in and they are an admin user, and 'GET /admin' endpoint is called, you will render this view
+based on the specs.
+
+
+
+--}}
+
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome Page</title>
+     <link rel="stylesheet" href="../public/css/lab10.css">
+</head>
+<body>
+	<h1>Welcome {{firstName}}</h1>
+	<p>The time is now: {{currentTime}}</p>
+	<p>You get super secret admin access since you are an admin. Remember, with great power comes great responsibility.</p>
+	<a href="/protected">Go to Protected Route</a>
+	<br>
+	<br>
+	<a href="/logout">Logout</a>
+	<script src = "../public/js/lab10.js"></script> 
+</body>

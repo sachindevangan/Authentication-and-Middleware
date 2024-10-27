@@ -1,0 +1,32 @@
+{{!--
+
+login form handlebar template
+
+--}}
+
+
+
+
+  <head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+  <link rel="stylesheet" href="../public/css/lab10.css">
+  </head>
+  <body>
+    <h1>Login</h1>
+    <div id = "error" ></div>
+    <form id="login-form" method="POST" action="/login">
+      <div>
+        <label for="emailAddressInput">Email Address:</label>
+        <input type="email" name="emailAddressInput" id="emailAddressInput" required>
+      </div>
+      <div>
+        <label for="passwordInput">Password:</label>
+        <input type="password" name="passwordInput" id="passwordInput" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="{{registerLink}}">Click here to register!</a></p>
+  <script src = "../public/js/lab10.js"></script> 
+  </body>
+
